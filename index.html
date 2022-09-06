@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Pagina de Login</title>
+</head>
+<body id="body">
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Recuperação de senha</h3>
+                <button class="modal-close">X</button>
+            </div>
+            <form class="modal-body">
+                <p>Comfirme seu Email para recuperar sua senha</p>
+                <input type="email" value="" placeholder="Email" name="email">
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+    <main>
+        <header>
+            <div>
+                <img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/08/dicas-programadores-iniciantes.png" 
+                alt="imagem de um PC em desenho">
+            </div>
+            <div>
+                <h1>Dev.Face</h1>
+                <p>Dev.Face é uma rede social para desenvolvedores que compartilham essa paixão em comum!</p>
+            </div>
+        </header>
+        <form class="form">
+            <h2>Faça seu Login</h2>
+            <input type="email" value="" placeholder="Email" name="email">
+            <input type="password" value="" placeholder="Senha" name="password">
+            <span id="btnEsqueci">Esqueci minha senha</span>
+            <button>Login</button>
+        </form>
+    </main>
+    <script type="module" src="./src/scripts/index.js"></script>
+</body>
+</html>
